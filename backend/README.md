@@ -351,6 +351,6 @@ The error codes currently returned are:
 ```
 
 ## Authors
-- Emmanuel Oluyale worked on the API and test suite to integrate with the frontend
+- George Nady worked on the API and test suite to integrate with the frontend
 
 - Udacity provided the starter files for the project including the frontend
