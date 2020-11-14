@@ -1,10 +1,13 @@
 
 # Trivia API
-Trivia api is a web application that allows people to hold trivia on a regular basis using a webpage to manage the trivia app and play the game.
+Trivia api is a web application that allows people to hold trivia on a 
+regular basis using a webpage to manage the trivia app and play the game.
 
 The app allows one to: 
 
-1) Display questions - both all questions and by category. Questions should show the question, category and difficulty rating by default and can show/hide the answer. 
+1) Display questions - both all questions and by category. 
+Questions should show the question, category and difficulty 
+rating by default and can show/hide the answer. 
 2) Delete questions.
 3) Add questions and require that they include question and answer text.
 4) Search for questions based on a text query string.
@@ -16,7 +19,8 @@ The app allows one to:
 
 #### Python 3.7
 
-Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
+Follow instructions to install the latest version of python for your platform in the 
+[python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
 #### Virtual Enviornment
 
@@ -34,14 +38,19 @@ This will install all of the required packages in the `requirements.txt` file.
 
 ##### Key Dependencies
 
-- [Flask](http://flask.pocoo.org/)  is a lightweight backend microservices framework. Flask is required to handle requests and responses.
+- [Flask](http://flask.pocoo.org/)  is a lightweight backend microservices framework. 
+Flask is required to handle requests and responses.
 
-- [SQLAlchemy](https://www.sqlalchemy.org/) is the Python SQL toolkit and ORM we'll use handle the lightweight sqlite database. You'll primarily work in app.py and can reference models.py. 
+- [SQLAlchemy](https://www.sqlalchemy.org/) is the Python SQL toolkit and ORM we'll use handle the lightweight 
+sqlite database. You'll primarily work in app.py and can reference models.py. 
 
-- [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/#) is the extension we'll use to handle cross origin requests from our frontend server. 
+- [Flask-CORS](https://flask-cors.readthedocs.io/en/latest/#) is the extension 
+we'll use to handle cross origin requests from our frontend server. 
 
 ## Database Setup
-With Postgres running, restore a database using the trivia.psql file provided. From the backend folder in terminal run:
+With Postgres running, restore a database using the trivia.psql file provided. 
+From the backend folder in terminal run:
+
 ```bash
 psql trivia < trivia.psql
 ```
@@ -78,9 +87,11 @@ npm install
 
 ## Running the Frontend in Dev Mode
 
-The frontend app was built using create-react-app. In order to run the app in development mode use ```npm start```. You can change the script in the ```package.json``` file. 
+The frontend app was built using create-react-app. In order to run the app in development mode use 
+```npm start```. You can change the script in the ```package.json``` file. 
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. 
+The page will reload if you make edits.<br>
 
 ```bash
 npm start
@@ -102,7 +113,7 @@ Errors are returned in the following json format:
       {
         "success": "False",
         "error": 422,
-        "message": "Unprocessable entity",
+        "message": "Unprocessable entity"
       }
 ```
 
@@ -161,7 +172,7 @@ The error codes currently returned are:
             "category": 5,
             "difficulty": 4,
             "id": 4,
-            "question": "What actor did author Anne Rice first denounce, then praise in the role of her beloved Lestat?"
+            "question": "What actor did author Anne Rice first denounce, then praise in the role of her beloved Least?"
         },
         {
             "answer": "Maya Angelou",
